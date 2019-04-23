@@ -19,8 +19,6 @@ module.exports = function (app) {
 
             $("article.story").each(function (i, element) {
                 var result = {};
-                // var link = $(element).children().attr("href");
-                // var title = $(element).children().text();
                 result.summary = $(element).children("p.summary").text();
                 result.byline = $(element).children("p.byline").text();
                 result.title = $(element).children("h2").text();

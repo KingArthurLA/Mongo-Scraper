@@ -1,5 +1,5 @@
 .nav-wrapper {
-    background-color:#01579b;
+    background-color:#ff0000;
 }
 
 a#save {
@@ -10,7 +10,7 @@ a#save {
     color: black !important;
 }
 body {
-    background-image: url("../images/stardust.png");
+    background-image: url("../images/background.jpg");
 }
 
 .delete-button {
